@@ -1,0 +1,51 @@
+
+
+.editor-container {
+  position: relative;
+  min-height: 300px;
+  width: 80%;
+  border-radius: 5px;
+  padding: 10px;
+  box-sizing: border-box;
+  margin: 0 auto; /* Center the editor */
+}
+
+
+.find-replace-controls {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.find-replace-controls input {
+  margin-right: 5px;
+  padding: 5px;
+  width: 150px;
+}
+
+
+.find-replace-controls button {
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.find-replace-controls button:hover {
+  background-color: #0056b3;
+}
+
+/* Editor content styling */
+.ProseMirror {
+  min-height: 200px;
+  padding:  0 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  
+}
+
+.ProseMirror:focus {
+  border-color: none;
+}
